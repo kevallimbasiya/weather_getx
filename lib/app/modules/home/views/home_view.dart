@@ -32,9 +32,7 @@ class HomeView extends GetView<HomeController> {
                 height: 20,
               ),
               ElevatedButton(
-                onPressed: 
-                  controller.getWeather
-                ,
+                onPressed: controller.getWeatherDataByLatLong,
                 child: const Text("chech weather"),
               )
             ],
